@@ -17,4 +17,4 @@ x86: $(SRC)
 	$(CC_X86) $(CFLAGS_X86) $(SRC) -o $(BIN)
 
 clean:
-	rm -f $(BIN_QNX) $(BIN_X86)
+	rm -f $(BIN)
