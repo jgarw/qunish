@@ -136,7 +136,6 @@ int execute_commands(char *input){
             spawn_process(args);
         }
 
-        free(input);
         free(args);
         return 0;
 }
